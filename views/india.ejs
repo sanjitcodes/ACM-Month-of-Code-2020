@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COVID-INFO | INDIA STATS</title>
+		<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/stylesheets/india.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+<link href="https://fonts.googleapis.com/css?family=Londrina+Outline|Monoton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>	
+	<script src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>	
+	
+
+<body>
+
+
+
+
+	<nav class="navbar navbar-expand-lg w3-theme-d4 fixed-top pt-0 mb-5" style="width: 1">
+		<img src="/images/virus.png" style="width: 40px; height: 40px; margin-right: 10px; margin-left: 40px;">
+		<a class="navbar-brand" href="#">COVID-INFO</a>
+	  
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="nav navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="/">HOME </a>
+			</li>
+		   
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				STATISTICS
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="/world">WORLD STATS</a>
+				<a class="dropdown-item" href="/india">INDIA STATS</a>
+			</li>
+			
+			<li class="nav-item">
+			  <a class="nav-link" href="/news">NEWS</a>
+			</li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right" style=" margin-right: 70px;">
+			  <li> <a class="nav-link" href="/">Login</a> </li>
+			  <li> <a class="nav-link" href="/">Sign Up</a> </li>
+			</ul>   
+		</div>
+	  </nav><nav id="mainNavbar" class="navbar navbar-expand-lg  navbar-dark w3-theme-d4 fixed-top pt-0 mb-5" style="width: 1">
+		<img src="/images/virus.png" style="width: 40px; height: 40px; margin-right: 10px; margin-left: 40px;">
+		<a class="navbar-brand" href="#">COVID - INFO</a>
+	  
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+		  <span class="navbar-toggler-icon" ></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="nav navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="/">HOME </a>
+			</li>
+		   
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				STATISTICS
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="/world">World Stats</a>
+				<a class="dropdown-item" href="/india">India Stats</a>
+			</li>
+			
+			<li class="nav-item">
+			  <a class="nav-link" href="/news">NEWS</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/info">ESSENTIALS</a>
+			  </li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right" style=" margin-right: 70px;">
+			  <li> <a class="nav-link" href="/">LOGIN</a> </li>
+			  <li> <a class="nav-link" href="/">SIGN UP</a> </li>
+			</ul>   
+		</div>
+	  </nav>
+	  
+	
+	  <div class="container" style="padding: 0;">
+		<div class="jumbotron " style="margin: 25px 0 50px 0 ; padding-left: 60px; padding-right: 40px; background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/indian-food-menu-background-7.jpg);"><br>
+			<center class="display-4" style="font-size: 40px; font-weight: bold; color: white; align-content:center;">INDIA🇮🇳 CORONAVIRUS TRENDS</center><br>
+			<p class="lead two" style="color: white; font-weight:bold; font-size: 20px">The first case of the 2019–20 coronavirus pandemic in India was reported on 30 January 2020, originating from China.The outbreak has been declared an epidemic in more than a dozen states and union territories, where provisions of the Epidemic Diseases Act, 1897 have been invoked, and educational institutions and many commercial establishments have been shut down.
+				On 22 March 2020, India observed a 14-hour voluntary public curfew at the instance of the prime minister Narendra Modi. The government followed it up with lockdowns in 75 districts where COVID cases had occurred as well as all major cities.Further, on 24 March, the prime minister ordered a nationwide lockdown for 21 days, affecting the entire 1.3 billion population of India. On 14 April, the prime minister extended the ongoing nationwide lockdown till 3 May.</p>
+			<!-- <hr class="my-4">
+				
+			<p class="lead" style="margin-top: 20px;">Stay indoors and stay healthy</p>
+			<a class="btn btn-success btn-lg" href="/india" role="button">Check India Stats</a> -->
+		</div>	
+		  </div>
+
+
+
+
+
+
+<% arr.shift(); %>
+<% var x=1 %>
+	
+	
+<div class="container">
+	<div class="row first">
+		<div class="col-xl-7 col-lg-12 order-2 order-lg-1 " style="padding-left: 0;">
+			<div class="scrollable">
+				<table id="myTable" class="table table-striped table-dark" border="1" cellspacing="0" cellpadding="3">
+					<thead>
+						<tr style="text-align: center;">
+							<th>S.No.</th>
+							<th>STATE/UT</th>
+							<th style="color: #ff0000; font-size: 15px">CONFIRMED</th>
+							<th style="color: #4ed1e6;font-size: 15px">ACTIVE</th>  
+							<th style="color: #11d414;font-size: 15px">RECOVERED</th>
+							<th style="color: #e9f0e9;font-size: 15px">DEATHS</th>
+						</tr>
+					</thead>
+			
+					<% arr.forEach(function(info){ %>
+					<tr id='<%= info.state%>'>
+						<td> <%= x %></td>
+						<td><a href="javascript:void(0);" onclick="districtFunction('<%= info.state%>','<%= x %>');"> <%= info.state%> </a> </td>
+
+						<% if(parseInt(info.deltaconfirmed)>0){ %>
+							<td style="color: #ff0000;"> <span style="color: white; font-size: 15px;"><i style="font-size: 15px;" class="material-icons">&#xe5d8;</i><%=info.deltaconfirmed  %> </span> <%=   info.confirmed%>  </td>
+						<% }else { %>
+							<td style="color: #ff0000;"><%= info.confirmed%>  </td>
+						<% } %>
+
+
+						<td style="color: #4ed1e6;"> <%= info.active%>  </td>
+						<td style="color: #11d414;"> <%= info.recovered%> </td>
+						<td style="color: #e9f0e9;"> <%= info.deaths%> </td>
+						<% x++ %>
+					</tr>
+					
+					<% }); %>
+				</table>
+			</div>
+		</div>
+			
+	
+
+			
+		<div class="col-xl-5 col-lg-12 order-1 order-lg-2 ">
+			<div class="row d-flex justify-content-center align-items-center">
+
+				<div class="col-xl-3 col-lg-2 col-sm-5 col-5 square" style="background-color:rgba(255,7,58,0.22); border-radius: 7%; padding-top: 3px; padding-left: 9px;">
+					<h5 style="font-size: 15px; font-family: archia; font-weight: 900; color: #ff073a; margin-bottom: 0px;">CONFIRMED</h5>
+					<div class="hidden">
+						<p class="cases" style="color: #ff073a; font-weight: 600; font-family:archia; font-size: 24px!important;"><b> 0</b></p>
+					</div>	
+				</div>
+				
+				<div class="col-xl-2 col-lg-2 col-sm-5 col-5 square" style="background-color:rgba(0,123,255,.25); border-radius: 7%; padding-top: 3px;  padding-left: 9px;">
+					<h5 style="font-size: 15px; font-family: archia; font-weight: 900; color: rgba(0,123,255,.76); margin-bottom: 0px;">ACTIVE</h5>
+					<div class="hidden">
+						<p class="active" style="color: rgba(0,123,255,.76); font-weight: 600; font-family:archia; font-size: 24px!important; "><b>0 </b></p>
+					</div>	
+				</div>
+
+				<div class="col-xl-3 col-lg-2 col-sm-5 col-5 square" style="background-color:rgba(40,167,69,.29); padding-left:9px; padding-top: 3px; border-radius: 7%;">
+					<h5 style="font-size: 15px; font-family: archia; font-weight: 900;     color: #28a745; margin-bottom: 0px;">RECOVERED</h5>
+					<div class="hidden">
+						<p class="recovered" style="color: #28a745; font-weight: 600; font-family:archia; font-size: 24px!important;"><b> 0</b></p>
+					</div>
+				</div>
+
+				<div class="col-xl-2 col-lg-2 col-sm-5 col-5  square" style="background-color:rgba(108,117,125,.26); padding-left:9px; padding-top: 3px; border-radius: 7%;">
+					<h5 style="font-size: 15px; font-family: archia; font-weight: 900; color: rgba(108,117,125,.9); margin-bottom: 0px;">DEATHS</h5>
+					<div class="hidden">
+						<p class="deaths" style="color: #6c757d; font-weight: 600; font-family:archia; font-size: 24px!important;"><b>0 </b></p> 
+					</div>
+				</div>
+
+			</div>
+			
+			<p class="state" style="color: #ff073a; font-weight: 600; font-size: 18px;">State</p>
+			<div class="row d-flex">
+				<div class="col-sm-12">
+					<div class="map "></div>
+				</div>
+			</div>
+				
+		</div>	
+	</div>
+</div>		
+		
+	<br> <br>	
+	<div class="container" style="margin-bottom: 100px; margin-top: 50px;">
+		<h1 style="font-weight: bold; font-size: 35px">GRAPHICAL DATA : </h1>
+
+
+		
+		<div class="row">
+			<h3 style="padding-left: 15px; font-size: 25px">Number of cases confirmed</h3>
+			<div class="col-sm-12">
+				<div style="width: 100%px; height: 100%px; margin-top:0px; padding-top:0px; margin-bottom: 60px;">
+					<canvas id="TotalCases"></canvas>
+				</div>
+			</div>
+
+			<h3  style="padding-left: 15px; font-size: 25px">Recovered till now</h3>
+			<div class="col-sm-12">
+				<div style="width: 100%px; height: 100%px; margin-top:0px; padding-top:0px; margin-bottom: 60px;">
+					<canvas id="Recovered"></canvas>
+				</div>
+			</div>
+
+			<h3 style="padding-left: 15px; font-size: 25px">Deaths</h3>
+			<div class="col-sm-12">
+				<div style="width: 100%px; height: 100%px; margin-top:0px; padding-top:0px; margin-bottom: 60px;">
+					<canvas id="Deaths"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="row bg-dark d-flex justify-content-center align-items-center" style=" color: white; height: 150px;">
+		<div class="col-xl-4">
+			<center> <p class="Covid-info" style="margin-bottom: 0;font-weight: 500;"> Covid-Info   </p></center>	
+		</div>
+		<div class="col-xl-4">
+			<center> <p> @ 2020 All rights reserved </p></center>
+		</div>
+		<div class="col-xl-4">
+			<center> <p>Developed by :  HyperText Coders </p></center>
+		</div>
+	</div>
+
+
+		
+		<!-- <div style="width: 900px; height: 400px;">
+			<canvas id="Recovered" width="100" height="100"></canvas>
+		</div>
+		<div style="width: 900px; height: 400px;">
+			<canvas id="Deaths" width="200" height="100"></canvas>
+		</div> -->
+
+
+
+	
+	
+	
+	
+	
+	
+	<script>
+
+function districtFunction(state,pos) {
+	// console.log(state);
+	var index=parseInt(pos);
+	console.log(index);
+	var i=0;
+	var x='<%-JSON.stringify(district) %>';
+	console.log(x);
+	x=JSON.parse(x);
+	console.log(x);
+	x.forEach(function(info){
+		if(info.state == state)
+					{
+						
+							var table = document.getElementById(state);
+							var x = document.createElement("TABLE");
+								x.setAttribute("id", "myTable");
+								$(x).insertAfter(table);
+								info.districtData.forEach(function(details){
+
+								
+								
+
+
+								// var y = document.createElement("TR");
+								// y.setAttribute("id", "myTr");
+								var row = x.insertRow();
+
+								// var z = document.createElement("TD");
+								// var t = document.createTextNode(details.district);
+								// z.appendChild(t);
+								// document.getElementById("myTr").appendChild(z);
+
+								// var z = document.createElement("TD");
+								// var t = document.createTextNode(details.confirmed);
+								// z.appendChild(t);
+								// document.getElementById("myTr").appendChild(z);
+
+								var cell2 = row.insertCell(0);
+								var cell3 = row.insertCell(1);
+								var cell4 = row.insertCell(2);
+								var cell5 = row.insertCell(3);
+								var cell6 = row.insertCell(4);
+								cell2.innerHTML = details.district;
+								cell3.innerHTML =details.confirmed ;
+								cell4.innerHTML =details.active ;
+								cell5.innerHTML =details.recovered ;
+								cell6.innerHTML =details.deceased ;
+						})
+					}
+				});
+			
+
+
+
+
+
+
+
+// 	var dist= "<%= district %>";
+// 	console.log(dist);
+
+// 	dist='<%= JSON.stringify(district)%>';
+// 	console.log(dist);
+// 		dist.forEach(function(info){
+// 		console.log(info.state);
+// 		if(info.state === state)
+// 					{
+// 						info.districtData.forEach(function(details){
+// 							var y = document.createElement("TR");
+// 							y.setAttribute("id", "myTr");
+// 							document.getElementById("myTable").appendChild(y);
+
+// 							var z = document.createElement("TD");
+// 							var t = document.createTextNode("cxxxc");
+// 							z.appendChild(t);
+// 							var z = document.createElement("TD");
+// 							var t = document.createTextNode(details.confirmed);
+// 							z.appendChild(t);
+// 							document.getElementById("myTr").appendChild(z);
+// 						})
+// 					}
+				
+// 	});
+
+}
+//   var x = document.createElement("TABLE");
+//   x.setAttribute("id", "myTable");
+//   document.body.appendChild(x);
+
+//   var y = document.createElement("TR");
+//   y.setAttribute("id", "myTr");
+//   document.getElementById("myTable").appendChild(y);
+
+//   var z = document.createElement("TD");
+//   var t = document.createTextNode("cell");
+//   z.appendChild(t);
+//   document.getElementById("myTr").appendChild(z);
+
+			// function districtFunction() {
+			// 	var x = document.createElement("TABLE");
+			// 	x.setAttribute("id", "myTable");
+			// 	document.body.appendChild(x);
+				
+			// 	var dist ='<%- JSON.stringify(district) %>';
+				
+			// 	dist.forEach(function(info){
+			// 		if(info.state === state)
+			// 		{
+			// 			info.districtData.forEach(function(details){
+			// 				var y = document.createElement("TR");
+			// 				y.setAttribute("id", "myTr");
+			// 				document.getElementById("myTable").appendChild(y);
+
+			// 				var z = document.createElement("TD");
+			// 				var t = document.createTextNode("cxxxc");
+			// 				z.appendChild(t);
+			// 				var z = document.createElement("TD");
+			// 				var t = document.createTextNode(details.confirmed);
+			// 				z.appendChild(t);
+			// 				document.getElementById("myTr").appendChild(z);
+			// 			})
+			// 		}
+			// 	})
+			// 	}
+
+
+
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script>
+		var ctx = document.getElementById('TotalCases');
+		ctx.height = 350;
+		ctx.width = 900;
+		
+		var x1="<%=x1 %>";
+		var y1="<%=y1 %>";
+		x1 = x1.split(',');
+		
+		y1  = y1.split(',').map(function(item) {
+    		return parseInt(item, 10);
+		});
+
+		var options = {
+			  scales: {
+				yAxes: [{
+				  stacked: true,
+				  gridLines: {
+					display: true,
+					color: "rgba(242, 136, 136,0.2)"
+				  }
+				}],
+				xAxes: [{
+				  gridLines: {
+					display: false
+				  }
+				}]
+			  }
+			};
+			var myLineChart = new Chart(ctx, {
+				type: 'line',
+				data:{
+					labels: x1 ,
+					datasets:[
+					{
+						label: "No of cases", 
+						fill:false,
+						lineTension: 0.1,
+						backgroundColor: "#f55a51",
+						borderColor: "#fa1407",
+						data:  y1 ,
+					}]
+				},
+					options: options
+			});	
+		
+	
+		
+		var options = {
+		  scales: {
+			yAxes: [{
+			  stacked: true,
+			  gridLines: {
+				display: true,
+				color: "rgba(102, 227, 156,0.2)"
+			  }
+			}],
+			xAxes: [{
+			  gridLines: {
+				display: false
+			  }
+			}]
+		  }
+		};
+		var ctx = document.getElementById('Recovered');
+		ctx.height = 350;
+		ctx.width = 900;
+			var x2="<%=x2 %>";
+			var y2="<%=y2 %>";
+			x2 = x2.split(',');
+		   	y2  = y2.split(',').map(function(item) {
+		return parseInt(item, 10);
+				});
+		
+			var myLineChart = new Chart(ctx, {
+				type: 'line',
+				data:{
+					labels: x2 ,
+					datasets:[
+					{
+						label: "Recovered", 
+						fill:false,
+						lineTension: 0.1,
+						backgroundColor: "#60f766",
+						borderColor: "#0cf514",
+						data:  y2 ,
+					}]
+				},
+				options: options
+
+
+			});	
+			
+		
+		var options = {
+			  scales: {
+				yAxes: [{
+				  stacked: true,
+				  gridLines: {
+					display: true,
+					color: "rgba(102, 192, 227,0.2)"
+				  }
+				}],
+				xAxes: [{
+				  gridLines: {
+					display: false
+				  }
+				}]
+			  }
+			};
+		var ctx = document.getElementById('Deaths');
+		ctx.height = 350;
+		ctx.width = 900;
+			var x3="<%=x3 %>";
+			var y3="<%=y3 %>";
+			x3 = x3.split(',');
+		   	y3  = y3.split(',').map(function(item) {
+		return parseInt(item, 10);
+				});
+		
+			var myLineChart = new Chart(ctx, {
+				type: 'line',
+				data:{
+					labels: x3 ,
+					datasets:[
+					{
+						label: "Deaths", 
+						fill:false,
+						lineTension: 0.1,
+						backgroundColor: "#5a7dfa",
+						borderColor: "#3b64f7",
+						data:  y3 ,
+					}]
+				},
+				options: options
+
+
+			});	
+	</script>	
+		
+		
+	
+		<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script type="text/javascript" src="/javascript/india.js"></script>
+</body>
+</html>

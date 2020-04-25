@@ -1,0 +1,47 @@
+.navbar.scrolled{
+	background-color: red;
+	transition: background 500ms;
+}
+
+#mainNavbar .nav-link:hover{
+            color: #32D328;
+            padding-top: 12px;
+
+        }
+        .nav-link{
+        	padding-top: 15px;
+        }
+
+        .navbar .navbar-brand{
+            color: white;
+            font-size: 25px;
+            padding-top: 12px;
+        }
+
+@media screen and (max-width: 480px) {
+	.search{
+		 width: 70%; 
+	}
+  }
+
+  @media screen and (min-width: 480px) {
+	.search{
+		 width: 30%; 
+	}
+  }
+
+  h1{
+	font-family: 'Roboto', sans-serif;
+  }
+
+
+
+
+  body{
+  	background-color : #eef0dd;
+	  background background-repeat: no-repeat;
+	  /* background-size: cover; */
+	  /*background-position: center; */
+	  margin: 0;
+	  padding: 0;
+  }

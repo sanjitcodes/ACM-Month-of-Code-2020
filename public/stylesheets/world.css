@@ -1,0 +1,66 @@
+.table.table-striped.table-dark td{
+	padding: 7px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 18px;
+}
+
+.table thead th{
+	border: 2px solid black;
+	font-weight: 900;
+	font-size: 22px;
+}
+
+
+.chart-container {
+  position: relative;
+  margin: auto;
+}
+
+
+
+.col-lg-2.square{
+	margin: 2.5%;
+}
+body{
+	background: #eef0dd; 
+	margin: 0; 
+}
+
+.scrollable{
+	overflow-y: scroll;
+	height: 1000px;
+}
+
+.navbar.scrolled{
+	background-color: red;
+	transition: background 500ms;
+}
+
+#mainNavbar .nav-link:hover{
+            color: #32D328;
+            padding-top: 12px;
+        }
+
+        .navbar .navbar-brand{
+            color: white;
+            font-size: 25px;
+            padding-top: 12px;
+        }
+
+.nav-link{
+        	padding-top: 15px;
+        	color : white;
+        }
+
+p.Covid-info{
+	font-family: 'Londrina Outline', cursive;
+	font-size: 45px;
+  }
+
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
